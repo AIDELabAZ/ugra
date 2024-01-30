@@ -68,6 +68,8 @@
 install.packages("palmerpenguins")
 library(palmerpenguins)
 penguins <- penguins
+
+model <- lm(data = penguins,body_mass_g~flipper_length_mm)
 # ######################################################################
   # 1 - data cleaning 
 # ######################################################################
