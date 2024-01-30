@@ -26,7 +26,7 @@
 # can use either - suggest wd  
 
 # set a working directory     
-    setwd("/path/to/your/directory")
+    setwd("/Users/fvkrysbackpackpc/Documents/GitHub/ugra/jacob-kieran/code/R")
     # all file and directory operations will be relative to this path
     
 # global directory
@@ -41,7 +41,8 @@
     
     packages_to_install <- c("package1", "package2", "package3")
     ### "package1", "package2", etc. are placeholders / not real 
-    
+    install.packages("tidyverse")
+    library(tidyverse)
     # Check if each package is already installed, and install if not
     
     for (pkg in packages_to_install) {
@@ -63,7 +64,10 @@
     install.packages("packageName", repos = NULL, type = "source", version = "X.X.X")
     ## replace packageName with your package
     ## replace "X.X.X" with version
-
+    
+install.packages("palmerpenguins")
+library(palmerpenguins)
+penguins <- penguins
 # ######################################################################
   # 1 - data cleaning 
 # ######################################################################
