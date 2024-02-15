@@ -36,15 +36,9 @@
 * Define root folder globals
 
 * example for me for a different project
-
     if `"`c(username)'"' == "yetfl" {
         global 		code  	"C:/Users/yetfl/OneDrive/Desktop/GitHub/ugra/jacob-kieran/code/Stata"
 		global 		data	"C:/Users/yetfl/OneDrive/Desktop/AIDE_ugra_data"
-
-    if `"`c(username)'"' == "annal" {
-        global 		code  	"C:/Users/aljosephson/git/mismeasure_weather"
-		global 		data	"C:/Users/aljosephson/OneDrive - University of Arizona/weather_project"
-
     }
 	
 * **********************************************************************
@@ -106,5 +100,8 @@ if $pack == 1 {
 * **********************************************************************
 
 */
+
+
+*** TEST ***
 
 ** END **
