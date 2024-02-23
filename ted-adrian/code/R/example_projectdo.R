@@ -3,7 +3,9 @@
 # Project: AREC596 - Sample projectdo
 # Created on: January 2024
 # Created by: alj
-# Stata v.18.0
+# Updated on: 23 February 2024
+# Updated by: alj 
+# R 4.3.2 
 
 # does
     # establishes an identical workspace between users
@@ -22,15 +24,15 @@
   # 0(a) - setup pathways
 # ######################################################################
 
-# define global / wd pathways 
-# can use either - suggest wd  
+# define wd pathways 
+# set wd to your computer's git folder  
 
 # set a working directory     
-    setwd("/path/to/your/directory")
+    setwd("C:/Users/aljosephson/git/ugra/ted-adrian/code/R")
     # all file and directory operations will be relative to this path
     
-# global directory
-    global_path <- "/path/to/your/directory"
+# alternative method to use global directory
+   # generic code:  global_path <- "/path/to/your/directory"
     # use this variable throughout your script
     
 # ######################################################################
@@ -39,7 +41,9 @@
 
     #  install necessary packages
     
-    packages_to_install <- c("package1", "package2", "package3")
+    packages_to_install <- c("dplyr", "ggplot2", "tidyr", "readr", "purrr", 
+                             "caret", "tidyverse", "data.table", "lubridate",
+                             "shiny")
     ### "package1", "package2", etc. are placeholders / not real 
     
     # Check if each package is already installed, and install if not
@@ -53,14 +57,15 @@
     
     # Specify R version in use
     # This is specific for the package installed 
+    # no need to do anything with this now - just hold
     
     # Load with library function to check version: 
-    library(packageName, lib.loc = "path/to/library")
+    # library(packageName, lib.loc = "path/to/library")
     ## replace packageName with your package 
     ## replace "path/to/library" with path to library 
     
     # Install specific version of package 
-    install.packages("packageName", repos = NULL, type = "source", version = "X.X.X")
+    # install.packages("packageName", repos = NULL, type = "source", version = "X.X.X")
     ## replace packageName with your package
     ## replace "X.X.X" with version
 

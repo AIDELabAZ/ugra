@@ -3,7 +3,7 @@
 # Project: AREC596 - Sample projectdo
 # Created on: January 2024
 # Created by: alj
-# Stata v.18.0
+# R 4.3.2
 
 # does
     # establishes an identical workspace between users
