@@ -44,8 +44,7 @@
     packages_to_install <- c("dplyr", "ggplot2", "tidyr", "readr", "purrr", 
                              "caret", "tidyverse", "data.table", "lubridate",
                              "shiny")
-    ### "package1", "package2", etc. are placeholders / not real 
-    
+
     # Check if each package is already installed, and install if not
     
     for (pkg in packages_to_install) {
