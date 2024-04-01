@@ -3,7 +3,7 @@
 # AREC596 - fish investigation 
 # file created: 29 march 2024
 # file created: alj 
-# filed edited: 29 march 2024
+# filed edited: 1 april 2024
 # last edit: alj 
 
 # does: 
@@ -21,7 +21,10 @@
 
 # set your directory  
 
+### HERE ### - add a line for yours and mute where mine is 
+
   setwd ("C:/Users/aljosephson/git/ugra/ted-adrian")
+
 
 # reading a CSV file
   data <- read.csv("fish.csv")
@@ -59,11 +62,11 @@
   
   ### HERE ###  
   
-# understand locations of farming 
+# understand locations of farming - do we have these data?
   
   ### HERE ###
   
-# describe consumers of fish 
+# describe consumers of fish - do we have these data?
   
   ### HERE ###
   
