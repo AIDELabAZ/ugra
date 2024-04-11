@@ -10,7 +10,7 @@
 
 # assumes: 
       # access to fish.csv 
-      # ... packages 
+      # ggplot plot: packages 
 
 # to do: 
      ### if you need to do something, look for something labeled with "### HERE ###"
@@ -42,6 +42,12 @@
   str(data)      
     ### structure of the data
 
+install.packages("ggplot2", "tidyverse", "hrbrthemes", "viridis")
+library(ggplot2)
+library(tidyverse)
+library(hrbrthemes)
+library(viridis)
+    
 ##############################################################################
 ##############################################################################
 # 1 - clean up data    
@@ -67,8 +73,20 @@
 
 # growth of fish sales 
   ### ways to look at this: total range, sales per person (per operation)
+
+## attempt, following code: https://r-graph-gallery.com/89-box-and-scatter-plot-with-ggplot2.html  
+  ggplot( aes(x="Year", y="Value")) +
+    geom_boxplot() +
+    scale_fill_viridis(discrete = TRUE, alpha=0.6) +
+    geom_jitter(color="black", size=0.4, alpha=0.9) +
+    theme_ipsum() +
+    theme(
+      legend.position="none",
+      plot.title = element_text(size=11)
+    ) +
+    ggtitle("A boxplot with jitter") +
+    xlab("")
   
-  ### HERE ###  
   
 # describe consumers of fish - do we have these data?
   
