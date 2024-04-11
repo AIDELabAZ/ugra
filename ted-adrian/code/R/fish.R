@@ -1,6 +1,6 @@
 ## BEGIN ## 	
 
-# AREC596 - fish investigation 
+# fish investigation 
 # file created: 29 march 2024
 # file created: alj 
 # filed edited: 11 april 2024
@@ -9,6 +9,8 @@
 # does: 
 
 # assumes: 
+      # access to fish.csv 
+      # ... packages 
 
 # to do: 
      ### if you need to do something, look for something labeled with "### HERE ###"
@@ -25,10 +27,11 @@
 ## you can  mute using "#"
 
   setwd ("C:/Users/aljosephson/git/ugra/ted-adrian")
-
+  #setwd ("TED'S PATHWAY")
 
 # reading a CSV file
   data <- read.csv("fish.csv")
+  print(data)
 
 # verify the data 
   
@@ -50,26 +53,28 @@
   
   ### HERE ###
   
+  data <- data[, c("Year", "Value")]
+  ## don't want to drop everything, maybe keep domain category 
+  
+# save   
+  write.csv(data, "fish-rev.csv", row.names = TRUE)
+  
 ##############################################################################
 ##############################################################################
 # 2 - preliminary analysis  
 ##############################################################################
 ##############################################################################
 
-# describe types of fish farmed and sold
-  
 # growth of fish sales 
   ### ways to look at this: total range, sales per person (per operation)
   
   ### HERE ###  
   
-# understand locations of farming - do we have these data?
-  
-  ### HERE ###
-  
 # describe consumers of fish - do we have these data?
   
-  ### HERE ###
+# understand locations of farming - do we have these data?
+  
+# describe types of fish farmed and sold
   
 ##############################################################################
 ##############################################################################
@@ -79,6 +84,4 @@
 
 # save this file 	
 
-  write.csv(data, "fish-rev.csv", row.names = TRUE)
-  
 ## END ## 	
