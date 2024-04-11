@@ -3,7 +3,7 @@
 # AREC596 - fish investigation 
 # file created: 29 march 2024
 # file created: alj 
-# filed edited: 1 april 2024
+# filed edited: 11 april 2024
 # last edit: alj 
 
 # does: 
@@ -22,6 +22,7 @@
 # set your directory  
 
 ### HERE ### - add a line for yours and mute where mine is 
+## you can  mute using "#"
 
   setwd ("C:/Users/aljosephson/git/ugra/ted-adrian")
 
