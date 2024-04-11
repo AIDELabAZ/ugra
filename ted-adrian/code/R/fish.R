@@ -74,19 +74,10 @@ library(viridis)
 # growth of fish sales 
   ### ways to look at this: total range, sales per person (per operation)
 
-## attempt, following code: https://r-graph-gallery.com/89-box-and-scatter-plot-with-ggplot2.html  
-  ggplot( aes(x="Year", y="Value")) +
-    geom_boxplot() +
-    scale_fill_viridis(discrete = TRUE, alpha=0.6) +
-    geom_jitter(color="black", size=0.4, alpha=0.9) +
-    theme_ipsum() +
-    theme(
-      legend.position="none",
-      plot.title = element_text(size=11)
-    ) +
-    ggtitle("A boxplot with jitter") +
-    xlab("")
+## attempt, following code: https://r-graph-gallery.com/262-basic-boxplot-with-ggplot2.html   
   
+  ggplot(data, aes(x=Year, y=Value)) +
+    geom_boxplot(fill="slateblue", alpha=0.2) 
   
 # describe consumers of fish - do we have these data?
   
