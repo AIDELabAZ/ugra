@@ -5,7 +5,7 @@ This README is for use by undergraduate research assistants working with the AID
 Last update: January 2024. 
 This repo is a work in progress. 
 
-For issues or concerns with this repo, please contact Anna Josephson or Jeffrey Michler.
+For issues or concerns with this repo, please contact Anna Josephson (aljosephson@arziona.edu).
 
  ## Index
 
