@@ -19,9 +19,9 @@ For issues or concerns with this repo, please contact Anna Josephson (aljosephso
 
 Contributors:
 * Kieran Douglas 
-* Anna Josephson
+* Anna Josephson (aljosephson@arizona.edu)
 * Ted Melitas
-* Jeffrey D. Michler
+* Jeffrey D. Michler (jdmichler@arizona.edu)
 * Jacob Taylor
 
 ## Data 
