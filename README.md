@@ -3,7 +3,7 @@
 This README is for use by undergraduate research assistants working with the AIDE Lab at UA.   
 
 Last update: May 2024. 
-This repo is a work under construction. 
+This repo is a work under construction. Begun in Spring 2024.
 
 For issues or concerns with this repo, please contact Anna Josephson (aljosephson@arziona.edu).
 
